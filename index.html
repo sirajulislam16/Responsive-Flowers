@@ -8,27 +8,53 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
+
     <script src="https://kit.fontawesome.com/482071d9b4.js" crossorigin="anonymous"></script>
 <body>
     <header>
-        <nav class="nav-bar">
+        <div class="status-bar display-flex">
+            <ul class="left-side">
+                <li class="icon">9:41</li>
+            </ul>
+            <ul class="right-side display-flex">
+                <li class="icon"> <i class="fa-solid fa-signal"></i> </li>
+                <li class="icon"> <i class="fa-solid fa-wifi"></i> </li>
+                <li class="icon"> <i class="fa-solid fa-battery-full"></i></li>
+            </ul>
+        </div>
+        <nav class="nav-bar margin1 display-flex">
             <div class="logo">
                 <img src="assets/logo.png" alt="logo">
             </div>
-            <div class="button">
-                <a href="#">Home</a>
-                <a href="#">Shop</a>
-                <a href="#">About Us</a>
-                <a href="#"><i class="fa-solid fa-cart-shopping"></i> Cart($56)</a>
-            </div>
+            <ul class="nav-link display-flex">
+                <li class="nav-items"><a href="#" id="hide" class="nav-link1 color-1">Home</a></li>
+
+                <li class="nav-items"><a href="#" id="hide" class="nav-link color-2">Shop</a></li>
+
+                <li class="nav-items"><a href="#" id="hide" class="nav-link color-2">About Us</a></li>
+
+                <li class="nav-items"><a href="#" class="nav-link color-3"><i class="fa-solid fa-cart-shopping"></i> Cart($56)</a></li>
+            </ul>
         </nav>
     </header>
 
     <main>
-
+        <!-- <div class="banner">
+            <div class="banner-text">
+                <div class="title noto-serif">ALWAYS <span>FRESH</span></div>
+                <div class="title noto-serif"><Span>FLOWERS</Span></div>
+                <p class="sub-title inter">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+            <img src="assets/hero-flower.png" alt="banner-photo">
+        </div> -->
     </main>
-
+        <section class="hero margin1">
+            <div class="texts">
+                <h3 class="title">ALWAYS <span class="color-4">FRESH FLOWERS</span></h3>
+                <p class="sub-title">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+            <img class="hero-img" src="assets/hero-flower.png" alt="">
+        </section>
     <footer>
 
     </footer>
